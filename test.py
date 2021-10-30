@@ -6,6 +6,8 @@ import bs4
 import urllib.request  
 from selenium.webdriver.support.ui import Select
 
+
+#z
 def judge(soup):
     spanclass = soup.find("span",{"class":"mrQuestionTable"})
     if spanclass:
